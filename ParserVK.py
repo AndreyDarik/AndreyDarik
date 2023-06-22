@@ -16,9 +16,7 @@ def search_user():
     if name:  # Если имя не пустое
         output.delete(1.0, tk.END)  # Очистка поля вывода
         vk_session = vk_api.VkApi(
-            token='vk1.a.aXRJhdERIIyjwsKgz_LgydVP5lAqoLccjTF01lWScLDHe0Tj-6xvj-ub8OKbnCV_s_-SwCUXVdhg15qWV-VDhkTB643HC'
-                  'uhVsra0rCxNWwlDVmgI6JRs-Cs6LiOO95JfRDGQ70iPNxEfNIjCwZCSdDnXITR3MbHrukFhq3uDtTUhk5_Tgg7o4oH6fVT5-XluC'
-                  'nyvhAv3L4lqCv6vchglUw')  # Создание экземпляра vk_api.VkApi с использованием токена доступа
+            token='YOUR_API_TOKEN')  # Создание экземпляра vk_api.VkApi с использованием токена доступа
         vk = vk_session.get_api()  # Получение экземпляра API ВКонтакте
 
         # Выполнение поиска пользователей в ВКонтакте
@@ -93,9 +91,7 @@ def export_to_excel():
     if name:  # Если имя не пустое
         output.delete(1.0, tk.END)  # Очистка поля вывода
         # Создание экземпляра vk_api.VkApi с использованием токена доступа
-        vk_session = vk_api.VkApi(token='vk1.a.aXRJhdERIIyjwsKgz_LgydVP5lAqoLccjTF01lWScLDHe0Tj-6xvj-ub8OKbnCV_s_-SwCU'
-                                        'XVdhg15qWV-VDhkTB643HCuhVsra0rCxNWwlDVmgI6JRs-Cs6LiOO95JfRDGQ70iPNxEfNIjCwZCSd'
-                                        'DnXITR3MbHrukFhq3uDtTUhk5_Tgg7o4oH6fVT5-XluCnyvhAv3L4lqCv6vchglUw')
+        vk_session = vk_api.VkApi(token='YOUR_API_TOKEN')
         vk = vk_session.get_api()  # Получение экземпляра API ВКонтакте
 
         response = vk.users.search(q=name, fields='screen_name, city, country, photo_max_orig',
