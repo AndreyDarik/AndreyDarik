@@ -1,6 +1,6 @@
-### Hello VK! 👋
+### Hello VK! 🫡
 
-# VK Parser
+# 🔥VK Parser🔥
 
 VK Parser is a Python program for parsing data from the VKontakte (VK) social network. It allows you to retrieve information about users, communities, posts, comments, and other VK objects.
 Features
@@ -15,12 +15,12 @@ Features
     Python 3.6 or higher
     VK API access token (obtainable from the VK Developer Portal)
 
-# Installation
+# 👉Installation👈
 
 
    Clone the repository:
 
-    git clone https://github.com/your-username/vk-parser.git
+    git clone https://github.com/AndreyDarik/vk-parser.git
 
    Navigate to the project directory:
 
@@ -31,7 +31,7 @@ Features
 
     pip install -r requirements.txt
 
-# Usage
+# 🔎Usage
 
    - Obtain a VK API access token by creating a standalone application in the VK Developer Portal.
 
@@ -39,33 +39,33 @@ Features
 
    - Run the VK Parser program:
 
-bash
 
-python vk_parser.py
+         python vk_parser.py
 
-    Follow the on-screen instructions to enter the VK object ID and select the desired parsing options.
+Follow the on-screen instructions to enter the VK object ID and select the desired parsing options.
 
-    The program will start parsing the VK data and save the results to a file.
+The program will start parsing the VK data and save the results to a file.
 
-Contributing
+# Contributing
 
 Contributions are welcome! If you would like to contribute to VK Parser, please follow these steps:
 
-    Fork the repository.
+- Fork the repository.
 
-    Create a new branch for your feature or bug fix.
+- Create a new branch for your feature or bug fix.
 
-    Make your changes and commit them.
+- Make your changes and commit them.
 
-    Push your changes to your fork.
+- Push your changes to your fork.
 
-    Submit a pull request.
+- Submit a pull request.
 
-License
+# 📜License
 
 This project is licensed under the MIT License.
-Contact
 
-If you have any questions or suggestions, feel free to contact the project maintainer at your-email@example.com.
+# 📞Contact
+
+If you have any questions or suggestions, feel free to contact the project maintainer at andreidarik19@gmail.com.
 
 We hope VK Parser simplifies your data parsing tasks in the VKontakte social network. Happy parsing!
